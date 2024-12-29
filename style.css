@@ -1,83 +1,62 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
 }
 
 header h1 {
-    margin: 0;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-header nav ul li {
-    margin: 0 10px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-header nav ul li a:hover {
-    text-decoration: underline;
+    margin: 20px 0;
+    font-size: 2.5em;
+    color: #4CAF50;
 }
 
 .profile-section {
-    text-align: center;
     margin: 20px auto;
-    max-width: 1200px;
 }
 
-.profile-pic {
+.profile-photo {
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    margin: 20px 0;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
 
-.profile-container {
+.skills-container {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
-}
-
-.tool {
-    background: white;
+    justify-content: center;
+    gap: 20px;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    max-width: 300px;
-    margin: 10px;
 }
 
-.tool img {
+.panel {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.panel h2 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.panel .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.panel .icons img {
     width: 50px;
     height: 50px;
-    margin: 10px;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
+    object-fit: contain;
 }
