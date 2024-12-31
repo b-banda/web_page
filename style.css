@@ -56,7 +56,7 @@ header h1 {
 }
 
 .panel .icons img {
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 50px;
     object-fit: contain;
 }
