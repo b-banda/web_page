@@ -56,7 +56,12 @@ header h1 {
 }
 
 .panel .icons img {
-    width: 50px;
-    height: 50px;
+    width: 65px; /* Increased size by 30% */
+    height: 65px; /* Increased size by 30% */
     object-fit: contain;
+    transition: transform 0.2s ease; /* Optional: smooth hover effect */
+}
+
+.panel .icons img:hover {
+    transform: scale(1.1); /* Optional: slight hover zoom effect */
 }
